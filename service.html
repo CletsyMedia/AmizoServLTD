@@ -204,9 +204,13 @@
     <div class="card">
       <form action="https://formsubmit.co/55e5b1c56655cdaf2b75b17586cb5493 " method="POST">
         <h3>Book For A Service</h3>
+        <!-- Honeypot -->
+        <input type="text" name="_honey" style="display:none;">
+        <!-- Disable capcha -->
+        <input type="text" name="_capchat" value="false">
          <div class="info">
            <input type="text" class="box" name="Name"  placeholder="Name" required>
-           <input type="email" class="box" name="Email" placeholder="Enter email" required>
+           <input type="email" class="box" name="email" placeholder="Enter email" required>
          </div>
          <div class="serv">
            <select name="Select a service" class="box" required>

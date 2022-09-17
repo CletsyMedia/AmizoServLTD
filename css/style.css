@@ -18,7 +18,7 @@
     --shadow:10px 10px 30px rgba(0,0,0,0.1);
     --light-shadow:rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;;
     --big-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    --shiny-shadow2:rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;;
+    --shiny-shadow2:rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     --gradient:linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
     --gradient0:linear-gradient(to right, #141e30, #243b55);
     --gradient1:linear-gradient(95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64%);
@@ -82,14 +82,16 @@ header{
     justify-content: space-between;
     z-index:1000;
 }
-header .logo,
-footer .logo{
-    color: white;
-    font-size:2rem;
-    cursor: pointer;
+header .logo img{
+    width:60px;
 }
-header span,
-footer .logo span{
+.foot .title{
+    width:100px;
+}
+.foot .title .logo{
+    width: 100%;
+}
+header span{
     color: var(--orange);
 }
 header .logo,
@@ -113,15 +115,16 @@ header .navbar a{
 header .navbar a:hover{
     color: var(--orange);
 }
-header .icons{
+header .icons a{
     color: white;
     font-size: 2.5rem;
-    cursor: pointer;
+    text-decoration: none;
 }
-header .navbar .active{
+header .navbar .active,
+header .icons .active{
     color: #ffc727;
 }
-/* Login */
+/* Login 
 .login-container{
     position: fixed;
     top: -120%;
@@ -207,6 +210,7 @@ header .navbar .active{
     color: var(--dodgerblue);
     text-decoration: underline;
 }
+*/
 
 /* Hero */
 .hero{
@@ -664,13 +668,19 @@ footer .logo-head .social .icon a:hover{
 /* Testimonial Ends */
 
 /* Contact */
+.contactPage .contact{
+    margin: 0 auto;
+}
+.contactPage .info{
+    margin-top:3rem;
+}
 .contact{
     position: relative;
     background-image: url('../images/Footer/map.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin: 8rem auto;
+    margin:0rem auto;
 }
 .contact .bg{
     position: absolute;
@@ -796,10 +806,10 @@ footer .foot{
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    gap:1.5rem;
+    /* gap:1.5rem; */
 }
 .foot .logo-head p{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     line-height: 1.5;
 }
 .foot .links{

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Cletus Samuel=Cletussam12@yahoo.com">
+    <meta name="description" content="Amizo Services Limited provides Engineering support to Industries in Manufacturing, Steel Production, Oil and Gas Production, and Mining in Nigeria." />
+    <meta name="keywords" content="Oil, Gas, Nigeria Oil and Gas,Oil and Gas, Nigeria oil, Nigerian Industry, Industry, Steel Production, Services, Procurement, Engineering, Industrial spares, Industrial spares Nigeria" />
+    <title>AmiZoServLTD</title>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="./images/logo/asl.png" type="image/x-icon">
+    <!-- Icon close -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./fonts/font.css">
+    <!-- AIOS Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <!-- AIOS Library ends -->
+</head>
+<body>
+     
+    <header>
+        <!-- toggle -->
+        <div id="menubar" class="i fal fa-bars"></div>
+        <a href="index.html" class="logo"><img src="./images/logo/asl.png" alt="logo"></a>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="service.html" class="active">Services</a>
+            <a href="procurement.html">Procurement</a>
+            <a href="loss.html">Loss prevention</a>
+            <a href="links.html">Links</a>
+        </nav>
+        <div class="icons">
+          <a href="contact.html"><i class="fal fa-address-card" id="loginBtn"></i></a>
+        </div>
+    </header>
+
+
+
+<!-- Service Plan -->
+<div class="service-plan successplan" id="servicePlan">
+  <section class="servPlan" data-aos="fade-up">
+    <div class="head">
+      <h3>We are at your service</h3>
+      <p>Request a service plan with us today and get the best.
+        <br>
+        We offers a wide range of engineering services;
+        From conceptualisation to comissioning, we depend on the experience of our staff and our understanding of Industrial standards and best pratices.
+      </p>
+    </div>
+    <div class="card success">
+      <h3>Book For A Service</h3>
+      <p><span>Success!</span> <br> We will get back to you shortly.</p>
+    </div>
+  </section>
+</div>
+<!-- Service Plan Ends -->
+
+<!-- Footer -->
+  <footer>
+  <section class="foot">
+
+    <div class="logo-head">
+      <div class="title">
+        <a href="#" class="logo"><img src="./images/logo/asl.png" alt="logo"></a>
+        </div>
+      <p>Amizo Services Limited likes to deliver
+         high quality products and services to Nigerian
+         industries with emphasis on reliability and prompt delivery.</p>
+        
+         <div class="social">
+          <div class="icon"><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></div>
+          <div class="icon"><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></div>
+          <div class="icon"><a href="https://www.google.com"><i class="fab fa-google-plus-g"></i></a></div>
+          <div class="icon"><a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a></div>
+        </div>
+    </div>
+
+    <div class="links">
+      <h4>Quick Links</h4>
+      <div class="link-home">
+      <a href="index.html" class="active">Home</a>
+       <a href="about.html">About Us</a>
+      <a href="service.html">Services</a>
+      <a href="procurement.html">Procurement</a>
+      <a href="loss.html">Loss prevention</a>
+      <a href="links.html">Links</a>
+      </div>
+    </div>
+
+    <div class="links">
+      <h4>Category</h4>
+      <div class="link-home">
+      <a href="#">First Link</a>
+      <a href="#">Second Link</a>
+      <a href="#">Third Link</a>
+      <a href="#">Fourth Link</a>
+      <a href="#">Fifth Link</a>
+      </div>
+    </div>
+
+    <div class="news">
+      <h4>Our Newsletter</h4>
+      <p>Subscribe to our newsletter to get the latest news and offers.</p>
+      <div class="hm-foot-email">
+        <form action="https://formsubmit.co/55e5b1c56655cdaf2b75b17586cb5493 " method="POST"">
+          <div class="foot-email-box">
+            <input type="text" name="Email" class="form-control" placeholder="Email Address" required>
+          </div>
+          <!--/.foot-email-box-->
+          <div class="foot-email-subscribe">
+            <button type="submit" ><i class="fal fa-paper-plane"></i></button>
+          </div><!--/.foot-email-icon-->
+        </form>
+      </div>
+    </div>
+  </section>
+  <div class="footNote">
+    <section>
+      <p>&copy; All Right Reserved <a href="https://cletsymedia.github.io/Prof-Portfolio/" target="_blank"">CletsyMedia</a> 2022</p>
+      <!-- Scroll-top -->
+      <div id="scroll-Top">
+        <i class="fa-thin fa-arrow-up return-to-top" onclick="scrollToTop();"></i>
+      </div>
+      <!-- Scroll-top -->
+    </section>
+  </div>
+  </footer>
+<!-- Footer Ends -->
+
+  <script src="./JS/main.js" defer></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 400,
+      duration: 1000,
+      easing: 'ease-in-out'
+    });
+
+    /****Scroll-up*****/
+window.addEventListener('scroll', function(){
+  var scroll = document.querySelector('.return-to-top');
+  scroll.classList.toggle('active-top', this.window.scrollY > 200)
+})
+
+function scrollToTop(){
+  window.scrollTo({
+    top:0,
+    behavior: 'smooth'
+  })
+}
+  </script>
+</body>
+</html>

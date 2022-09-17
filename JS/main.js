@@ -6,17 +6,17 @@ menu.addEventListener('click', () => {
     nav.classList.toggle('active');
 });
 // Form Toggle
- let formLog = document.querySelector('#loginBtn');
- let formControl = document.querySelector('.login-container');
- let formClose = document.querySelector('#form-close');
+//  let formLog = document.querySelector('#loginBtn');
+//  let formControl = document.querySelector('.login-container');
+//  let formClose = document.querySelector('#form-close');
 
- formLog.addEventListener('click', () => {
-     formControl.classList.add('active');
- });
+//  formLog.addEventListener('click', () => {
+//      formControl.classList.add('active');
+//  });
 
- formClose.addEventListener('click', () => {
-     formControl.classList.remove('active');
- });
+//  formClose.addEventListener('click', () => {
+//      formControl.classList.remove('active');
+//  });
 
 
 

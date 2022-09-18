@@ -209,12 +209,14 @@
         <!-- Disable captcha -->
         <input type="hidden" name="_captcha" value="false">
 
+        <!-- Display success msg -->
+        <input type="hidden" name="_next" value="https://cletsymedia.github.io/AmizoServLTD/success.html">
          <div class="info">
            <input type="text" class="box" name="Name"  placeholder="Name" required>
            <input type="email" class="box" name="email" placeholder="Enter email" required>
          </div>
          <div class="serv">
-           <select name="Select a service" class="box" required>
+           <select name="Select&nbsp;a&nbsp;service" class="box" required>
              <option value="" disabled selected>Select a service</option>
              <option value="Business Plan">Business Plan</option>
              <option value="Business Consultancy">Business Consultancy</option>
@@ -226,7 +228,7 @@
              <option value="Electrical Wiring">Electrical Wiring</option>
            </select>
          </div>
-         <textarea name="AmizoService Request" class="box"  cols="30" rows="10" placeholder="Message" required></textarea>
+         <textarea name="AmizoService&nbsp;Request" class="box"  cols="30" rows="10" placeholder="Message" required></textarea>
          <button type="submit" class="btn box"> Book Now <i class="fal fa-paper-plane"></i></button>
        </form>
     </div>

@@ -1,467 +1,1471 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Cletus Samuel=Cletussam12@yahoo.com">
-    <meta name="description" content="Amizo Services Limited provides Engineering support to Industries in Manufacturing, Steel Production, Oil and Gas Production, and Mining in Nigeria." />
-    <meta name="keywords" content="Oil, Gas, Nigeria Oil and Gas,Oil and Gas, Nigeria oil, Nigerian Industry, Industry, Steel Production, Services, Procurement, Engineering, Industrial spares, Industrial spares Nigeria" />
-    <title>AmiZoServLTD</title>
-    <!-- Icon -->
-    <link rel="shortcut icon" href="./images/logo/asl.png" type="image/x-icon">
-    <!-- Icon close -->
-    <link rel="stylesheet" href="./css/all.min.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./fonts/font.css">
-    <!-- AIOS Library -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
-    <!-- AIOS Library ends -->
-</head>
-<body>
-     
-    <header>
-        <!-- toggle -->
-        <div id="menubar" class="i fal fa-bars"></div>
-        <a href="index.html" class="logo"><img src="./images/logo/asl.png" alt="logo"></a>
-        <nav class="navbar">
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="service.html" class="active">Services</a>
-            <a href="procurement.html">Procurement</a>
-            <a href="loss.html">Loss prevention</a>
-            <a href="links.html">Links</a>
-        </nav>
-        <div class="icons">
-          <a href="contact.html"><i class="fal fa-address-card" id="loginBtn"></i></a>
-        </div>
-    </header>
-    
-   <!-- Hero  -->
-   <div class="hero service">
-    <div class="title"   data-aos="zoom-in" data-aos-delay="100">
-      <h1>Connect <span>Your</span> <br> Business With <br> <span>Amizo</span> Services</h1>
-      </p>
-    </div>
-      <div class="slideshow-container">
-  
-          <div class="slides fade">
-            <div class="ImgSlider1">
-              <div class="bg"></div>
-            </div>
-          </div>
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
-          <div class="slides fade">
-            <div class="ImgSlider2">
-              <div class="bg"></div>
-            </div>
-          </div>
-
-      </div>
-          <br>
-          
-          <div class="dotted">
-            <span class="dot"></span> 
-            <span class="dot"></span> 
-            <span class="dot"></span> 
-          </div>
-  </div>
-  <!-- Hero  Ends-->
-
-
-
-
-<!-- Services -->
-    <section class="box">
-    <div class="head">
-      <h3>Our Services</h3>
-      <p>We offers a wide range of engineering services;
-         <br> From conceptualisation to comissioning, we depend on the experience of our staff and our understanding of Industrial standards and best pratices.</p>
-    </div>
-    <div class="card" data-aos="fade-up">
-  
-      <div class="boxes">
-        <a href="#servicePlan">
-          <div class="card-head">
-            <div class="tile">
-              <i class="fa-thin fa-chalkboard"></i>
-              <h4>Business Planning</h4>
-              <p>
-                A well structured business plan to restructure your business
-                ideas.
-              </p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="boxes">
-        <a href="#servicePlan">
-          <div class="card-head">
-            <div class="tile">
-              <i class="fa-thin fa-file-lines"></i>
-              <h4>Business Consultancy</h4>
-              <p>Lorem ipsum dolor, sit amet consectetur 
-                adipisicing elit. Adipisci ut esse excepturi placeat, 
-                eaque provident!</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="boxes">
-        <a href="#servicePlan">
-          <div class="card-head">
-            <div class="tile">
-              <i class="fa-thin fa-calculator"></i>
-              <h4>Cost Estimation</h4>
-              <p>Lorem ipsum dolor, sit amet consectetur 
-                adipisicing elit. Adipisci ut esse excepturi placeat, 
-                eaque provident!</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="boxes">
-        <a href="#servicePlan">
-          <div class="card-head">
-            <div class="tile">
-              <i class="fa-thin fa-house"></i>
-              <h4>Construction</h4>
-              <p>Lorem ipsum dolor, sit amet consectetur 
-                adipisicing elit. Adipisci ut esse excepturi placeat, 
-                eaque provident!</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="boxes">
-        <a href="#servicePlan">
-          <div class="card-head">
-            <div class="tile">
-              <i class="fa-thin fa-utility-pole-double"></i>
-              <h4>Installation</h4>
-              <p>Lorem ipsum dolor, sit amet consectetur 
-                adipisicing elit. Adipisci ut esse excepturi placeat, 
-                eaque provident!</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="boxes">
-        <a href="#servicePlan">
-          <div class="card-head">
-            <div class="tile">
-              <i class="fa-thin fa-archway"></i>
-              <h4>Plant Maintenance</h4>
-              <p>Lorem ipsum dolor, sit amet consectetur 
-                adipisicing elit. Adipisci ut esse excepturi placeat, 
-                eaque provident!</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="boxes">
-        <a href="#servicePlan">
-          <div class="card-head">
-            <div class="tile">
-              <i class="fa-thin fa-bolt"></i>
-              <h4>Voltage Distribution</h4>
-              <p>Lorem ipsum dolor, sit amet consectetur 
-                adipisicing elit. Adipisci ut esse excepturi placeat, 
-                eaque provident!</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="boxes">
-        <a href="#servicePlan">
-          <div class="card-head">
-            <div class="tile">
-              <i class="fa-thin fa-lightbulb"></i>
-              <h4>Electrical Wiring</h4>
-              <p>Lorem ipsum dolor, sit amet consectetur 
-                adipisicing elit. Adipisci ut esse excepturi placeat, 
-                eaque provident!</p>
-            </div>
-          </div>
-        </a>
-      </div>
-      
-    </div>
-    </section>
-  <!-- Services Ends -->    
-
-<!-- Service Plan -->
-<div class="service-plan" id="servicePlan">
-  <section class="servPlan" data-aos="fade-up">
-    <div class="head">
-      <h3>We are at your service</h3>
-      <p>Request a service plan with us today and get the best.
-        <br>
-        We offers a wide range of engineering services;
-        From conceptualisation to comissioning, we depend on the experience of our staff and our understanding of Industrial standards and best pratices.
-      </p>
-    </div>
-    <div class="card">
-      <form action="https://formsubmit.co/55e5b1c56655cdaf2b75b17586cb5493 " method="POST">
-        <h3>Book For A Service</h3>
-        <!-- Honeypot -->
-        <input type="text" name="_honey" style="display:none;">
-        <!-- Disable captcha -->
-        <input type="hidden" name="_captcha" value="false">
-
-        <!-- Display success msg -->
-        <input type="hidden" name="_next" value="https://cletsymedia.github.io/AmizoServLTD/success.html">
-         
-        <div class="info">
-           <input type="text" class="box" name="Name"  placeholder="Name" required>
-           <input type="email" class="box" name="email" placeholder="Enter email" required>
-         </div>
-         <div class="serv">
-           <select name="Select&nbsp;a&nbsp;service" class="box" required>
-             <option value="" disabled selected>Select a service</option>
-             <option value="Business Plan">Business Plan</option>
-             <option value="Business Consultancy">Business Consultancy</option>
-             <option value="Cost Estimation">Cost Estimation</option>
-             <option value="Construction">Construction</option>
-             <option value="Installation">Installation</option>
-             <option value="Plant Maintenance">Plant Maintenance</option>
-             <option value="Voltage Distribution">Voltage Distribution</option>
-             <option value="Electrical Wiring">Electrical Wiring</option>
-           </select>
-         </div>
-         <textarea name="AmizoService&nbsp;Request" class="box"  cols="30" rows="10" placeholder="Message" required></textarea>
-         <button type="submit" class="btn box"> Book Now <i class="fal fa-paper-plane"></i></button>
-       </form>
-    </div>
-  </section>
-</div>
-<!-- Service Plan Ends -->
-
-<!-- Testimonial -->
-<div class="testify service-test">
-  <section class="testimonial" data-aos="fade-up">
- 
-<div class="head">
-  <h3>What Our Clients Say About Us</h3>
-</div>
-
-<div class="details slideshow-container">
-
-  <div class="mySlide2">
-      <div class="card">
-          <div class="Imgbox">
-            <img src="./images/Testy/testimonial1.jpg" alt="">
-          </div>
-      
-          <div class="title">
-            <span class="icon">
-              <i class="fal fa-quote-left"></i>
-            </span>
-
-            <p>
-              Lorem ipsum dolor sit amet conse adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam..
-            </p>
-            <h3>
-              <a href="#">
-                david allen
-              </a>
-            </h3>
-            <h4>CEO, Kingston</h4>
-          </div>
-          <div class="social">
-            <div class="icon"><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></div>
-            <div class="icon"><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></div>
-            <div class="icon"><a href="https://www.dribble.com"><i class="fab fa-dribbble"></i></a></div>
-            <div class="icon"><a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a></div>
-          </div>
-      </div>
-  </div>    
-  <div class="mySlide2">
-      <div class="card">
-          <div class="Imgbox">
-            <img src="./images/Testy/testimonial2.jpg" alt="">
-          </div>
-      
-          <div class="title">
-            <span class="icon">
-              <i class="fal fa-quote-left"></i>
-            </span>
-
-            <p>
-              Lorem ipsum dolor sit amet conse adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam Lorem ipsum dolor sit amet.
-            </p>
-            <h3>
-              <a href="#">
-                jonah david
-              </a>
-            </h3>
-            <h4>CEO, Benwoody</h4>
-          </div>
-          <div class="social">
-            <div class="icon"><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></div>
-            <div class="icon"><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></div>
-            <div class="icon"><a href="https://www.dribble.com"><i class="fab fa-dribbble"></i></a></div>
-            <div class="icon"><a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a></div>
-          </div>
-      </div>
-  </div>    
-  <div class="mySlide2">
-      <div class="card">
-          <div class="Imgbox">
-            <img src="./images/Testy/testimonial1.jpg" alt="">
-          </div>
-      
-          <div class="title">
-            <span class="icon">
-              <i class="fal fa-quote-left"></i>
-            </span>
-
-            <p>
-              Lorem ipsum dolor conse adipisicing elit sit amet conse adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam..
-            </p>
-            <h3>
-              <a href="#">
-                Allen white
-              </a>
-            </h3>
-            <h4>CEO, Kingston</h4>
-          </div>
-          <div class="social">
-            <div class="icon"><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></div>
-            <div class="icon"><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></div>
-            <div class="icon"><a href="https://www.dribble.com"><i class="fab fa-dribbble"></i></a></div>
-            <div class="icon"><a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a></div>
-          </div>
-      </div>
-  </div>    
-
-</div>
-
-<div class="dot">
-  <span class="dot" onclick="plusSlides(-1, 0)"><i class="fal fa-chevron-left"></i></span> 
-  <span class="dot" onclick="plusSlides(1, 0)"><i class="fal fa-chevron-right"></i></span>
-</div>
-
-  </section>
-</div>
-<!-- Testimonial Ends -->
-
-
-
-<!-- Footer -->
-  <footer>
-  <section class="foot">
-
-    <div class="logo-head">
-      <div class="title">
-        <a href="#" class="logo"><img src="./images/logo/asl.png" alt="logo"></a>
-        </div>
-      <p>Amizo Services Limited likes to deliver
-         high quality products and services to Nigerian
-         industries with emphasis on reliability and prompt delivery.</p>
-        
-         <div class="social">
-          <div class="icon"><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a></div>
-          <div class="icon"><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></div>
-          <div class="icon"><a href="https://www.google.com"><i class="fab fa-google-plus-g"></i></a></div>
-          <div class="icon"><a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a></div>
-        </div>
-    </div>
-
-    <div class="links">
-      <h4>Quick Links</h4>
-      <div class="link-home">
-      <a href="index.html" class="active">Home</a>
-       <a href="about.html">About Us</a>
-      <a href="service.html">Services</a>
-      <a href="procurement.html">Procurement</a>
-      <a href="loss.html">Loss prevention</a>
-      <a href="links.html">Links</a>
-      </div>
-    </div>
-
-    <div class="links">
-      <h4>Category</h4>
-      <div class="link-home">
-      <a href="#">First Link</a>
-      <a href="#">Second Link</a>
-      <a href="#">Third Link</a>
-      <a href="#">Fourth Link</a>
-      <a href="#">Fifth Link</a>
-      </div>
-    </div>
-
-    <div class="news">
-      <h4>Our Newsletter</h4>
-      <p>Subscribe to our newsletter to get the latest news and offers.</p>
-      <div class="hm-foot-email">
-        <form action="https://formsubmit.co/55e5b1c56655cdaf2b75b17586cb5493 " method="POST"">
-          <div class="foot-email-box">
-            <input type="text" name="Email" class="form-control" placeholder="Email Address" required>
-          </div>
-          <!--/.foot-email-box-->
-          <div class="foot-email-subscribe">
-            <button type="submit" ><i class="fal fa-paper-plane"></i></button>
-          </div><!--/.foot-email-icon-->
-        </form>
-      </div>
-    </div>
-  </section>
-  <div class="footNote">
-    <section>
-      <p>&copy; All Right Reserved <a href="https://cletsymedia.github.io/Prof-Portfolio/" target="_blank"">CletsyMedia</a> 2022</p>
-      <!-- Scroll-top -->
-      <div id="scroll-Top">
-        <i class="fa-thin fa-arrow-up return-to-top" onclick="scrollToTop();"></i>
-      </div>
-      <!-- Scroll-top -->
-    </section>
-  </div>
-  </footer>
-<!-- Footer Ends -->
-
-
-
-
-    <!-- login-->
-    <!-- <div class="login-container">
-        <i class="fal fa-times" id="form-close"></i>
-        <form class="form-control" action="https://formsubmit.co/55e5b1c56655cdaf2b75b17586cb5493 " method="POST">
-            <h3>Leave Us a Message</h3>
-            <input type="text" class="box" name="Name"  placeholder="Name" required>
-            <input type="email" class="box" name="Email" placeholder="Enter email" required>
-            <textarea name="AmizoReviews" class="box"  cols="30" rows="10" placeholder="Message"></textarea>
-            <input type="submit" class="box btn" value="Send">
-
-        </form>
-
-    </div> -->
-    
-  
-
-
-  <script src="./JS/main.js" defer></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init({
-      offset: 400,
-      duration: 1000,
-      easing: 'ease-in-out'
-    });
-
-    /****Scroll-up*****/
-window.addEventListener('scroll', function(){
-  var scroll = document.querySelector('.return-to-top');
-  scroll.classList.toggle('active-top', this.window.scrollY > 200)
-})
-
-function scrollToTop(){
-  window.scrollTo({
-    top:0,
-    behavior: 'smooth'
-  })
+/* css variables */
+:root{
+    --head:#44454f;
+    --p:#888;
+    --orange:#ffc727;
+    --dark:#071c33;
+    --lightgrey:#b0bec5;
+    --midnightblue:#0e2a47;
+    --deepblue:#544BAB;
+    --dodgerblue:#1273eb;
+    --light-blue:#8b5cfb;
+    --bxs:.1rem solid rgba(0, 0, 0, 0.5);
+    --clp:polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    --clip-path2: polygon(0 0, 100% 0, 100% 0, 0 0);
+    --shadow:10px 10px 30px rgba(0,0,0,0.1);
+    --light-shadow:rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;;
+    --big-shadow:rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    --shiny-shadow2:rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    --gradient:linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    --gradient0:linear-gradient(to right, #141e30, #243b55);
+    --gradient1:linear-gradient(95.2deg, rgba(173,252,234,1) 26.8%, rgba(192,229,246,1) 64%);
 }
-  </script>
-</body>
-</html>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* text-transform: capitalize; */
+    outline: none;
+    text-decoration: none;
+    transition: all .5s linear;
+}
+*::selection{
+    background-color:var(--dark);
+    color: var(--orange);
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: 0.5rem;
+}
+html::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background-color:#ffc727;
+}
+section{
+    padding: 8rem 8%;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.btn{
+    padding: 1.3rem;
+    outline: none;
+    background-color: var(--dark);
+    color:white;
+    border-radius:3px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #1273eb;
+}
+/* header */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--dark);
+    padding: 2rem 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index:1000;
+}
+header .logo img{
+    width:60px;
+}
+.foot .title{
+    width:100px;
+}
+.foot .title .logo{
+    width: 100%;
+}
+header span{
+    color: var(--orange);
+}
+header .logo,
+footer .logo{
+    transform: scale(1.2);
+}
+header #menubar{
+    color: white;
+    font-size:2.5rem;
+    border:.1rem solid #b0bec5;
+    border-radius: .25rem;
+    padding: 0.5rem 0.7rem;
+    cursor: pointer;
+    display: none;
+}
+header .navbar a{
+    margin: 0rem 2rem;
+    color: white;
+    font-size: 1.5rem;
+}
+header .navbar a:hover{
+    color: var(--orange);
+}
+header .icons a{
+    color: white;
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+header .navbar .active,
+header .icons .active{
+    color: #ffc727;
+}
+/* Login 
+.login-container{
+    position: fixed;
+    top: -120%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    z-index: 1000;
+}
+.login-container.active{
+    top: 0;
+}
+.login-container #form-close{
+    font-size: 2.5rem;
+    position: absolute;
+    color: white;
+    top:3rem;
+    right:5rem;
+    cursor: pointer;
+}
+
+.login-container #form-close:hover{
+    color: var(--orange);
+}
+.login-container .form-control{
+    width: 50rem;
+    margin: 2rem;
+    padding: 1.5rem 2rem;
+    background-color: var(--midnightblue);
+    border-radius:.5rem;
+}
+.login-container .form-control h3{
+    text-align: center;
+    text-transform:capitalize;
+    color:var(--orange);
+    font-size: 2rem;
+    padding:.5rem 0;
+}
+.login-container .form-control .box{
+    width: 100%;
+    padding:1.5rem;
+    margin: 0.6rem 0;
+    border-radius: .5rem;
+    border: .1rem solid rgba(0, 0, 0, 0.3);
+    color: white;
+    background-color: var(--dark);
+    text-transform: none;
+}
+.login-container .form-control .box:focus{
+    border:.1rem solid var(--orange);
+    transition: .5s ease-in;
+}
+.login-container .form-control .btn{
+    background-color: var(--orange);
+    cursor: pointer;
+    color: var(--dark);
+    font-size: 1.5rem;
+}
+.login-container .form-control .btn:hover{
+    background-color: var(--dodgerblue);
+    color: white;
+}
+.login-container .form-control #remember{
+    margin-right: 0.5rem;
+}
+.login-container .form-control label{
+    color: white;
+    font-size: 1.5rem;
+}
+.login-container .form-control p{
+    color: white;
+    padding: 0.6rem 0;
+    font-size: 1.4rem;
+}
+
+.login-container .form-control p a{
+    color:var(--orange);
+}
+.login-container .form-control p a:hover{
+    color: var(--dodgerblue);
+    text-decoration: underline;
+}
+*/
+
+/* Hero */
+.hero{
+    /* position: relative; */
+    padding-top:6rem;
+}
+.hero .ImgSlider1{
+    background-image: url(../images/home/hero0.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 84vh;
+}
+.about .ImgSlider1{
+    background-image: url(../images/about/about-main.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 84vh;
+}
+.service .ImgSlider1{
+    background-image: url(../images/services/serv0.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 84vh;
+}
+.hero .ImgSlider2{
+    background-image: url(../images/home/hero1.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 84vh;
+}
+.about .ImgSlider2{
+   background-image: url(../images/about/about-main1.jpg);
+   position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 84vh; 
+}
+.service .ImgSlider2{
+    background-image: url(../images/services/serv1.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 84vh;
+}
+.hero .ImgSlider3{
+    background-image: url(../images/home/hero2.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 84vh;
+}
+.hero .bg{
+    position: absolute;
+    height: 84vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: hidden;
+    z-index:10;
+}
+.hero .title{
+    position: absolute;
+    top:30%;
+    left:0;
+    padding-left: 8%;
+    z-index: 100;
+}
+.hero .title h1{
+    font-size:6rem;
+    font-family: 'Montserrat';
+    color: white;
+    font-weight: lighter;
+}
+.hero .title span{
+    color: #ffc727;
+}
+.hero .title p{
+    font-weight: lighter;
+    font-size:2.5rem;
+    line-height:34px;
+    color:white;
+    margin:2rem 0;
+
+}
+.slides{
+    display: none;
+}
+
+/* boxes */
+.box .head h3{
+    text-align: center;
+    font-size:3rem;
+    margin-bottom: 3rem;
+    color:#44454f;
+}
+.box .head p{
+    font-size:1.8rem;
+    color:#888;
+    text-align: center;
+    line-height: 1.5;
+}
+.box .card{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, auto));
+    grid-gap:2rem;
+    align-items: center;
+    margin-top:5rem;
+}
+.box .card .boxes{
+    background-color:white;
+    border-radius:5px;
+    box-shadow: var(--shadow);
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+.box .card .boxes:hover{
+    box-shadow: var(--big-shadow);
+    transform: scale(.99);
+}
+.box .card .boxes .card-head{
+    width: 290px;
+    height: 290px;
+}
+.box .card .boxes .tile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.box .card .boxes .tile h4{
+    font-size: 2.5rem;
+    color: var(--head);
+    font-weight: lighter;
+}
+.box .card .boxes .tile i{
+    font-size:2.5rem;
+    color:var(--orange);
+    background-color: var(--dark);
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box .card .boxes .tile p{
+    font-size: 1.5rem;
+    color: var(--p);
+}
+/* About */
+.about{
+    background-color:#f9faff;
+}
+.about .about-head{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, auto));
+    grid-gap:12rem;
+    align-items: center;
+}
+.about-head .col .card h3,
+.loss .head h3,
+.about-head .history h3{
+    color: var(--head);
+    font-size:3rem;
+}
+.about-head .col .card p,
+.loss .lead,
+.about-head .history p{
+    color: var(--p);
+    font-size:1.7rem;
+    line-height: 1.5;
+    margin:2rem 0 4rem 0;
+}
+.about-head .col-bg,
+.loss .Img{
+    padding:.5rem;
+    background:whitesmoke;
+    box-shadow: var(--big-shadow);
+    border-radius:3px;
+}
+.about-head .col-bg img,
+.loss .Img img{
+    border-radius:5px;
+    box-shadow: var(--bxs);
+}
+/* About Ends */
+
+/* Statistic */
+.statistics{
+    position: relative;
+    background-image: url(../images/counter/counter-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.statistics:before{
+    position: absolute;
+    content: '';
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.statistics-counter{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, auto));
+    gap:2rem;
+}
+.statistics-counter .card{
+    display: flex;
+    align-items:center;
+    justify-content: flex-start;
+    gap:2rem;
+    color:white;
+    z-index:10;
+}
+.statistics-counter .card .stat-img>i{
+    color:var(--orange);
+    font-size:7rem;
+}
+.statistics-counter .card .stat-counter{
+    font-size:2rem;
+    display: flex;
+    flex-direction: column;
+    gap:.5rem;
+}
+.statistics-counter .card .stat-counter .counter{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.statistics-counter .card .stat-counter h3{
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+/* Statistic Ends */
+
+
+
+
+/* Project */
+.pro-title{
+    background-color:#f9faff;
+}
+.pro-head{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.pro-head h3{
+    font-size: 3rem;
+    color: var(--head);
+}
+.pro-head p{
+    margin-top:2rem;
+    font-size: 1.7rem;
+}
+.pro-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, auto));
+    align-items: center;
+    gap:2rem;
+}
+
+.pro-info .col,
+.pro-info .col .card{
+    position: relative;
+    width: 300px;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.pro-info .col .overlay{
+    position: absolute;
+    width: 300px;
+    height:255px;
+    /* top:-100%; */
+    left:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: scale(0);
+    transition: .5s ease;
+    -webkit-transform:scale(0);
+    -moz-transform:scale(0);
+    -ms-transform:scale(0);
+    -o-transform:scale(0);
+}
+.pro-info .col .overlay a:hover{
+    color: var(--orange);
+    transition:.5s;
+}
+.pro-info .col:hover .overlay,
+.pro-info .col:hover .card img{
+    top: 0;
+    transform: scale(1.5);
+}
+.pro-info .overlay h3,
+.pro-info .overlay a{
+    color: white;
+    font-weight: lighter;
+    font-size: 1.3rem;
+}
+.pro-info .col .card img {
+    width: 100%;
+    border-radius: 5px;
+    transition: .5s ease;
+}
+/* Project Ends */
+
+/* Loss */
+.loss{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, auto));
+    grid-gap:10rem;
+    align-items: center;
+}
+/* Loss Ends */
+
+/* Testimonial */
+.testify{
+    background-color:var(--dark);
+}
+.testify .testimonial .head h3{
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+.testify .testimonial .details .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:1rem;
+    padding-top:5rem;
+}
+.testimonial .details .card .Imgbox{
+    width:100px;
+    height:100px;
+}
+.testimonial .details .card .Imgbox img{
+    width: 100%;
+    height: 100%;
+    border-radius:50%;
+    border:.1rem solid var(--orange);
+}
+.testify .testimonial .details .card .title{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:2rem;
+    font-size:1.5rem;
+    padding: 0.5rem 0;
+}
+.testify .testimonial .details .card i{
+    font-size: 3rem;
+    color: var(--orange);
+}
+.testify .testimonial .details .card p{
+    width:80%;
+    text-align: center;
+    line-height: 1.5;
+}
+.testify .testimonial .details .card h3 a{
+    text-transform: capitalize;
+    color: var(--orange);
+    font-size: 1.4rem;
+}
+.testify .testimonial .details .card h4{
+    font-size:1.3rem;
+}
+.testify .testimonial .details .card .social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    margin-top:2rem;
+}
+.testify .testimonial .details .card .social .icon a,
+.contact .info .contact-page .contact-info .social .icon a,
+footer .logo-head .social .icon a{
+    width:25px;
+    height:25px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--big-shadow);
+    border:.1rem solid var(--orange);
+}
+.testify .testimonial .details .card .icon i,
+.contact .info .contact-page .contact-info .social .icon,
+footer .logo-head .social .icon a i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:1.2rem;
+    color: var(--dark);
+    transition:.5s ease;
+}
+.testify .testimonial .details .card .icon a:hover,
+.contact .info .contact-page .contact-info .social .icon a:hover,
+footer .logo-head .social .icon a:hover{
+    background-color: var(--orange);
+    transform:scale(1.1);
+}
+.testify .testimonial .dot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    margin-top:2rem;
+    gap: 2rem;
+}
+.testify .testimonial .dot span i{
+    font-size:1.8rem;
+    cursor: pointer;
+}
+.testify .testimonial .dot span i:hover{
+    color: var(--orange);
+}
+/* Testimonial Ends */
+
+/* Contact */
+.contactPage .contact{
+    margin: 0 auto;
+}
+.contactPage .info{
+    margin-top:3rem;
+}
+.contact{
+    position: relative;
+    background-image: url('../images/Footer/map.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin:0rem auto;
+}
+.contact .bg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.contact .info{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact .info .title{
+    text-align: center;
+    color:white;
+}
+.contact .info .title h3{
+    font-size: 3rem;
+}
+.contact .info .title p{
+    font-size:1.8rem;
+    margin-top: 1rem;
+}
+.contact .info .contact-page{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:1rem;
+    margin-top: 8rem;
+}
+.contact .info .contact-page .contact-info{
+    display: flex;
+    align-items: flex-start;
+    justify-conent: flex-start;
+    flex-direction: column;
+    gap:3rem;
+    color: white;
+}
+.contact .info .contact-page .contact-info h5,
+.contact .info .contact-page .msgBox h5{
+    font-size:2.5rem;
+    margin-bottom:2rem;
+    color:white;
+}
+.contact .info .contact-page .contact-info .address p{
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+}
+.contact .info .contact-page .contact-info .online-address{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap:1.5rem;
+    font-size: 1.7rem;
+}
+.contact .info .contact-page .contact-info .online-address a{
+    margin-left: 1rem;
+    color: var(--orange);
+}
+.contact .info .contact-page .contact-info .online-address a:hover{
+    color: white;
+}
+.contact .info .contact-page .contact-info .social,
+footer .logo-head .social{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap:1.5rem;
+    margin-top:2rem;
+}
+.contact .info .contact-page .contact-info .social a i{
+    color: var(--midnightblue);
+}
+.contact .info .contact-page .msgBox .msgTxt{
+    display: flex;
+    align-items: flex-start;
+    gap:2em;
+    flex-direction: column;
+}
+.contact .info .contact-page .msgBox .msgTxt input{
+    padding: 1rem;
+    outline:none;
+    border-radius:3px;
+    background-color: white;
+    color:#000;
+    border:1px solid white;
+    margin-right: 1rem;
+}
+.contact .info .contact-page .msgBox .msgTxt input:focus,
+.contact .info .contact-page .msgBox .msgTxt textarea:focus{
+    border:1px solid var(--orange);
+}
+.contact .info .contact-page .msgBox .msgTxt textarea{
+    border-radius: 3px;
+    background-color: white;
+    outline: none;
+    color:#000;
+    border:1px solid white;
+    padding:1rem;
+    width:38rem;
+	border: 1px solid #f9faff;
+	outline:0!important;
+    background:#f9faff;
+}
+
+
+/* Contact Ends */
+
+/* Footer */
+footer{
+    background-color: var(--dark);
+    color:white;
+}
+footer .foot{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, auto));
+    gap:10rem;
+}
+.foot .logo-head{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* gap:1.5rem; */
+}
+.foot .logo-head p{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.foot .links{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap:1.5rem;
+}
+.foot h4{
+    font-size:1.8rem;
+    color: var(--orange);
+}
+.foot .link-home{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap:1.5rem;
+}
+.foot .link-home a{
+    color:white;
+    font-size: 1.5rem;
+}
+.foot .link-home a:hover{
+    color:var(--orange);
+    margin-left: 0.2rem;
+}
+.foot .news{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap:1.5rem;
+}
+.foot .news p{
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.hm-foot-email form{
+    display: flex;
+}
+.foot-email-box .form-control{
+	background:#3d3d4d;
+	display: block;
+    padding: 1rem 1rem 1rem;
+	outline:0!important;
+	box-shadow:var(--big-shadow);
+	border:0;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+.foot-email-box input[placeholder="Email Address"]{
+	color:white;
+}
+.foot-email-subscribe button{
+    width:36px;
+    height:36px;
+    background:var(--orange);
+	font-size:14px;
+    color:var(--midnightblue);
+    text-transform: uppercase;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	outline:0;
+	box-shadow:var(--big-shadow);
+	border: 0;
+	border-top-right-radius:3px;
+	border-bottom-right-radius:3px;
+    cursor: pointer;
+}
+.foot-email-subscribe button:hover{
+    background-color: var(--dodgerblue);
+    color:white;
+}
+
+.footNote{
+    background-color: var(--midnightblue);
+}
+.footNote section{
+    padding:2rem 8%;
+}
+.footNote p{
+    font-size: 1.6rem;
+}
+.footNote p a{
+    color:var(--orange);
+}
+/* Scroller */
+#scroll-Top .return-to-top{
+    position: fixed;
+    right: 30px;
+    bottom:10px;
+    width: 40px;
+    line-height: 40px;
+    visibility: hidden;
+    opacity: 0;
+    height: 40px;
+    text-align: center;
+    font-size:16px;
+    cursor: pointer;
+    color:var(--dark);
+    background:var(--orange);
+	border:1px solid var(--orange);
+	border-radius:5px;
+    -webkit-transition: .5s; 
+	-moz-transition:.5s; 
+	-ms-transition:.5s; 
+	-o-transition:.5s;
+    transition: .5s;
+}
+#scroll-Top  .return-to-top:hover {
+    background:var(--orange);
+    color:var(--dark);
+	border:1px solid var(--orange);
+	border-radius:50%;
+}
+#scroll-Top .return-to-top.active-top{
+    visibility: visible;
+    opacity: 1;
+}
+/* Scroller Ends */
+
+/* Footer Ends */
+
+/* About Page2 */
+.history .timeline{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap:2rem;
+}
+.history .timeline .row h4{
+    font-size: 1.6rem;
+    color: var(--head);
+}
+.history .timeline .row{
+    display: flex;
+    align-items: flex-start;
+    gap:1.5rem;
+}
+.history .timer .content .head span>i{
+    margin-top: 0.3rem;
+}
+.history .timer .content .head span>i,
+.mission-title .head span>i{
+    display: block;
+    color: var(--orange);
+    font-size: 1.6rem;
+}
+.history .timer .content{
+    display: flex;
+    align-items: flex-start;
+    gap:1.5rem;
+}
+.timer .content .descript{
+    font-size: 15px;
+    line-height:1.5;
+    list-style: none;
+    color: var(--p);
+}
+.timer{
+    position: relative;
+}
+.timer:before{
+    content: "";
+    width:1px;
+    background: #d0cece;
+    position: absolute;
+    top:33%;
+    left:1.5%;
+    height:120%;
+}
+.xtra-line .timer::before{
+    display: none;
+}
+.mission{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.mission .mission-title{
+    display: flex;
+    align-items: flex-start;
+    gap:1.5rem;
+}
+.mission .mission-title p{
+    font-size: 15px;
+    color: var(--p);
+}
+/* About Page2 Ends */
+
+/* Services */
+.service-test{
+    margin-bottom: 8rem;
+}
+.servPlan{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:4rem;
+}
+.successplan{
+    margin:16rem auto;
+}
+.success{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap:1rem;
+}
+.servPlan .head h3{
+    font-size:2.5rem;
+    text-transform: uppercase;
+    color: var(--head);
+}
+.successplan .valSuccess{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.success{
+    padding: 1rem;
+    width:40rem;
+    height: 20rem;
+}
+.success h3{
+    font-size:1.8rem;
+    text-transform: uppercase;
+    color: var(--head);
+    
+}
+.servPlan .head p{
+    color: var(--p);
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    line-height:1.5;
+}
+.success p{
+    font-size: 1.5rem;
+}
+.success span{
+    font-size: 2rem;
+    color: #1beb37;
+}
+.servPlan .card{
+   background-color:white; 
+   box-shadow: var(--big-shadow);
+   border-radius:5px;
+}
+.servPlan .card form h3{
+    font-size:3rem;
+    margin-bottom: 0.5rem;
+    color: var(--head);
+}
+.servPlan .card form{
+    display: flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+    flex-direction: column;
+    margin: 2rem;
+    padding: 1.5rem 2rem;
+}
+.servPlan form .info,
+.servPlan form .serv{
+    display: flex;
+    gap:1rem;
+    width: 100%;
+}
+.servPlan form .box{
+    width: 100%;
+    padding:1.5rem;
+    margin: 0.6rem 0;
+    border:.3px solid #e1e1e1;
+    border-radius: .3rem;
+    color:var(--dark);
+    background-color: white;
+}
+.servPlan form .box:focus{
+    border:.3px solid var(--dark);
+}
+.servPlan form .btn{
+    background-color: var(--dark);
+    color:white;
+}
+.servPlan form .btn:hover{
+    background-color:var(--dodgerblue);
+}
+
+/* .servPlan .card form{
+    display: flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+    flex-direction: column;
+    box-shadow: var(--big-shadow);
+    width:70rem;
+    margin: 2rem;
+    padding: 1.5rem 2rem;
+    background-color: var(--midnightblue);
+    border-radius:.5rem;
+}
+.servPlan .card form .box{
+    width: 100%;
+    padding:1.5rem;
+    margin: 0.6rem 0;
+    border-radius: .5rem;
+    border: .1rem solid rgba(0, 0, 0, 0.3);
+    color: white;
+    background-color: var(--dark);
+    text-transform: none;
+}
+.servPlan .card form .info,
+.servPlan .card form .serv{
+    display: flex;
+    gap:1rem;
+    width: 100%;
+} */
+
+
+
+/* responsiveness */
+@media(max-width:1440px){
+    .box .card {
+        grid-template-columns: repeat(auto-fit, minmax(25rem, auto));
+    }
+    .box .card .boxes {
+        width:290px;
+        height: 300px;
+    }
+    .box .card .boxes .card-head {
+        width:270px;
+        height: 290px;
+    }
+    .pro-info {
+        grid-template-columns: repeat(auto-fit, minmax(25rem, auto));
+    }
+    .pro-info .col, .pro-info .col .card {
+        width:290px;
+    }
+    .pro-info .col .overlay {
+        width:290px;
+    }
+}
+@media(max-width:1024px){
+    .box .card {
+        grid-template-columns: repeat(auto-fit, minmax(35rem, auto));
+    }
+    .box .card .boxes {
+        width:410px;
+        height: 300px;
+        padding-top: 0.7rem;
+    }
+    .box .card .boxes .card-head {
+        width:390px;
+        height: 290px;
+        padding: 0.5rem 1rem;
+    }
+    .statistics-counter {
+        grid-template-columns: repeat(auto-fit, minmax(13rem, auto));
+        gap:1rem;
+    }
+    .statistics-counter .card .stat-img>i {
+        font-size:4.5rem;
+    }
+    .statistics-counter .card .stat-counter .counter {
+        font-size:2.5rem;
+    }
+    .statistics-counter .card .stat-counter {
+        font-size:1.5rem;
+    }
+    .about .about-head,
+    .loss{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        grid-gap:4rem;
+    }
+    .pro-info {
+        grid-template-columns: repeat(auto-fit, minmax(35rem, auto));
+    }
+    .pro-info .col, .pro-info .col .card {
+        width:410px;
+    }
+    .pro-info .col .overlay {
+        width:410px;
+        height:320px;
+    }
+    .contact .info .contact-page .msgBox .msgTxt .name,
+    .contact .info .contact-page .msgBox .msgTxt .phone{
+        display: flex;
+        gap: 1rem;
+    }
+    .contact .info .contact-page .msgBox .msgTxt textarea {
+        width: 39rem;
+    }
+    .footNote p {
+        font-size: 1.4rem;
+    }
+    .timer:before {
+        left:1%;
+    }
+    .servPlan {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 4rem;
+    }
+}
+@media only screen and (max-width:800px){
+    header #menubar{
+        display:inline;
+    }
+    .navbar.active{
+        clip-path:var(--clp);
+    }
+   header .navbar{
+        position:absolute;
+        top:100%;
+        left: 0;
+        right: 0;
+        background-color: var(--dark);
+        clip-path:var(--clip-path2);
+        border-top: 1px solid white;
+        padding:1rem 3rem;
+    }
+    header .navbar a{
+        display: block;
+        padding: 1.5rem;
+        margin:1rem 0;
+        background-color: var(--midnightblue);
+        border-radius: .25rem;
+    }
+    header .navbar a:hover{
+        color: white;
+        background-color: var(--dodgerblue);
+    }
+    .box .card {
+        grid-template-columns: repeat(auto-fit, minmax(25rem, auto));
+    }
+    .box .card .boxes {
+        width:310px;
+        height:290px;
+    }
+    .box .card .boxes .card-head {
+        width:310px;
+        height:280px;
+        padding: 1rem;
+    }
+    .statistics-counter {
+        gap:3rem;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, auto));
+    }
+    .pro-info {
+        grid-template-columns: repeat(auto-fit, minmax(25rem, auto));
+    }
+    .pro-info .col, .pro-info .col .card{
+        width:310px;
+    }
+    .pro-info .col .overlay{
+        width:310px;
+        height:250px
+    }
+    .contact .info .contact-page{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:6rem;
+    }
+    
+    footer .foot{
+        grid-gap:5rem;
+    }
+    .timer:before {
+        left:1.3%;
+    }
+}
+
+/* small screen */
+@media only screen and (max-width:600px){
+    .hero .title h1 {
+        font-size:3.5rem;
+    }
+    .hero .title p{
+        font-size:2rem;
+        width: 95%;
+    }
+    .hero .title p br{
+        display: none;
+    }
+    .box .card,
+    .pro-info{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box .card .boxes {
+        width:340px;
+        height:300px;
+    }
+    .box .card .boxes .card-head {
+        width:320px;
+        height:290px;
+        padding: 1rem;
+    }
+    .statistics-counter {
+        gap:3rem;
+    }
+    .pro-info .col, .pro-info .col .card{
+        width:340px;
+    }
+    .pro-info .col .overlay{
+        width:340px;
+        height:300px;
+    }
+    .loss {
+        grid-gap:5rem;
+    }
+}
+@media only screen and (max-width:500px){
+    .box .card .boxes {
+        width:355px;
+        height:300px;
+    }
+    .box .card .boxes .card-head {
+        width:350px;
+        height:290px;
+        /* padding: 1rem; */
+    } 
+    .box .card,
+    .pro-info{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .pro-info .col, .pro-info .col .card{
+        width:355px;
+    }
+    .pro-info .col .overlay{
+        width:355px;
+        height:320px;
+    }
+    .about .about-head {
+        grid-gap:6rem;
+    }
+    .statistics-counter {
+        gap:3rem;
+    }
+    .contact .info .contact-page .msgBox .msgTxt .name,
+    .contact .info .contact-page .msgBox .msgTxt .phone{
+        display: flex;
+        align-items:flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .contact .info .contact-page .msgBox .msgTxt .name input,
+    .contact .info .contact-page .msgBox .msgTxt .phone input{
+        width:30rem;
+    }
+    .contact .info .contact-page .msgBox .msgTxt textarea {
+        width: 30rem;
+    }
+    .timer:before {
+        top:18%;
+        left: 2.4%;
+    }
+    .servPlan .head h3,
+    .servPlan .card form h3{
+        font-size: 2rem;
+    }
+
+    .servPlan .card form{
+        padding: 1rem;  
+    }
+    .servPlan form .info, .servPlan form .serv {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media only screen and (max-width:380px){
+    .box .card .boxes {
+        width:315px;
+        height:300px;
+    }
+    .box .card .boxes .card-head {
+        width:315px;
+        height:290px;
+        /* padding: 1rem; */
+    }
+    .statistics-counter {
+        gap:3rem;
+    }
+    .pro-info .col, .pro-info .col .card{
+        width:315px;
+    }
+    .pro-info .col .overlay{
+        width:315px;
+        height:290px;
+    }
+    .foot{
+        grid-gap:4rem;
+    }
+    .timer:before {
+        top:14%;
+        height: 105%;
+        left: 3%;
+    }
+}
+@media only screen and (max-width:320px){
+    .box .card .boxes {
+        width:270px;
+        height:320px;
+    }
+    .box .card .boxes .card-head {
+        width:270px;
+        height:320px;
+        /* padding: 1rem; */
+    }
+    
+    .statistics-counter {
+        gap:3rem;
+    }
+    .pro-info {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(30rem, auto));
+        align-items: center;
+        gap: 2rem;
+    }
+    .pro-info .col, .pro-info .col .card,
+    .pro-info .col .overlay{
+        width:270px;
+    }
+    .pro-info .col .overlay{
+        height:230px;
+    }
+    .about .about-head,
+    .loss{
+        grid-template-columns: repeat(auto-fit, minmax(28rem, auto));
+    }
+    .contact .info .contact-page {
+        margin-top:3rem;
+    }
+    .contact .info .contact-page .msgBox .msgTxt .name input,
+    .contact .info .contact-page .msgBox .msgTxt .phone input,
+    .contact .info .contact-page .msgBox .msgTxt textarea{
+        width:25rem;
+    }
+    .footNote p {
+        font-size: 1.5rem;
+    }
+    .timer:before {
+        top:10%;
+        left: 3.5%;
+        height: 110%;
+    }
+
+}

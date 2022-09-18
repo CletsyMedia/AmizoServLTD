@@ -584,7 +584,7 @@ header .icons .active{
     width: 100%;
     height: 100%;
     border-radius:50%;
-    border:.1rem solid var(--orange);
+    border:.1rem solid transparent;
 }
 .testify .testimonial .details .card .title{
     color: white;
@@ -613,14 +613,7 @@ header .icons .active{
 .testify .testimonial .details .card h4{
     font-size:1.3rem;
 }
-.testify .testimonial .details .card .social{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap:1rem;
-    margin-top:2rem;
-}
-.testify .testimonial .details .card .social .icon a,
+
 .contact .info .contact-page .contact-info .social .icon a,
 footer .logo-head .social .icon a{
     width:25px;
@@ -1014,15 +1007,42 @@ footer .foot{
     gap:4rem;
 }
 .successplan{
-    margin:16rem auto;
+    position: relative;
+    background-image: url('../images/Footer/map.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height:70vh;
+}
+.closeX{
+    position: absolute;
+    top:10px;
+    right: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color:transparent;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.closeX:hover{
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.closeX:hover a{
+    color: red;
 }
 .success{
+    position: relative;
     text-align: center;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     gap:1rem;
+    margin: 16rem auto;
 }
 .servPlan .head h3{
     font-size:2.5rem;
@@ -1040,9 +1060,9 @@ footer .foot{
     height: 20rem;
 }
 .success h3{
-    font-size:1.8rem;
+    font-size:1.7rem;
     text-transform: uppercase;
-    color: var(--head);
+    color:#1beb37;
     
 }
 .servPlan .head p{
@@ -1056,7 +1076,7 @@ footer .foot{
 }
 .success span{
     font-size: 2rem;
-    color: #1beb37;
+    color:var(--p);
 }
 .servPlan .card{
    background-color:white; 
@@ -1101,38 +1121,67 @@ footer .foot{
 .servPlan form .btn:hover{
     background-color:var(--dodgerblue);
 }
-
-/* .servPlan .card form{
+/* FAQs */
+.faq-head{
+    min-height:50vh; 
+    width:100%;
+    margin: 0 auto;
     display: flex;
-    align-items:flex-start;
-    justify-content:flex-start;
     flex-direction: column;
-    box-shadow: var(--big-shadow);
-    width:70rem;
-    margin: 2rem;
-    padding: 1.5rem 2rem;
-    background-color: var(--midnightblue);
-    border-radius:.5rem;
+    align-items: center;
 }
-.servPlan .card form .box{
-    width: 100%;
-    padding:1.5rem;
-    margin: 0.6rem 0;
-    border-radius: .5rem;
-    border: .1rem solid rgba(0, 0, 0, 0.3);
-    color: white;
-    background-color: var(--dark);
-    text-transform: none;
+.faq-head .title{
+    font-size:2.5rem;
+    color: var(--head);
 }
-.servPlan .card form .info,
-.servPlan .card form .serv{
+.faq{
+ max-width:800px;
+ margin-top: 2rem;
+ padding-bottom: 1rem;
+ border-bottom:1.5px solid var(--head);  
+ cursor: pointer; 
+}
+.question{
     display: flex;
-    gap:1rem;
-    width: 100%;
-} */
-
-
-
+    align-items: center;
+    justify-content:space-between;
+}
+.question h3{
+    font-size:21px;
+    color: var(--head);
+}
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition:max-height 1.5s ease;
+}
+.answer p{
+    font-size:17px;
+    padding-top: 1rem;
+    line-height: 1.5;
+    color: var(--p);
+}
+.faq.active .answer{
+    max-height:300px;
+    animation: fade 1s ease-in-out;
+}
+.faq.active .arrow{
+    transform: rotate(180deg);
+}
+.faq .arrow{
+    transition:transform .5s ease-in;
+}
+@keyframes fade{
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+/* FAQ Close */
 /* responsiveness */
 @media(max-width:1440px){
     .box .card {

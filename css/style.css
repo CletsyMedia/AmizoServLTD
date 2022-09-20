@@ -85,6 +85,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow:hidden;
 }
 .preloader.fade-out{
     top:-100%;

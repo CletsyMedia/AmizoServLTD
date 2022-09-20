@@ -18,7 +18,11 @@ menu.addEventListener('click', () => {
 //      formControl.classList.remove('active');
 //  });
 
-
+// Loader
+let loader = document.querySelector('.preloader');
+window.addEventListener("load", () => {
+  loader.style.display = "none";
+}) 
 
 // Slides
 let slideIndex1 = 0;
@@ -90,8 +94,6 @@ faqs.forEach(faq => {
     faq.classList.toggle("active");
   })
 })
-
-
 
 
 

@@ -67,20 +67,28 @@ img{
     cursor: pointer;
 }
 .btn:hover{
-    background-color: #1273eb;
+    background-color:var(--orange);
+    color: #071c33;
 }
 /* Loader */
 .preloader{
-    background-color: #000;
-    background-image: url(../images/loader/loader0.gif);
+    background-color:#fff;
+    background-image: url(../images/loader/loader.gif);
     background-repeat: no-repeat;
     background-position: center;
-    background-size:8%;
+    background-size:40%;
     height: 100vh;
     width: 100%;
     position: fixed;
     z-index:10000;
     top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.preloader.fade-out{
+    top:-100%;
+    display: none;
 }
 iframe{
     display: none;
@@ -98,6 +106,7 @@ header{
     align-items: center;
     justify-content: space-between;
     z-index:1000;
+    border-bottom: 1px solid var(--orange);
 }
 header .logo img{
     width:60px;
@@ -111,8 +120,8 @@ header .logo img{
 header span{
     color: var(--orange);
 }
-header .logo,
-footer .logo{
+header .logo:hover,
+footer .logo:hover{
     transform: scale(1.2);
 }
 header #menubar{
@@ -819,7 +828,13 @@ footer .foot{
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    /* gap:1.5rem; */
+    gap:.5rem;
+}
+.logo-head .logo{ 
+    width:65px;
+    height:65px;
+    margin-bottom: -2rem;
+    margin-left: -1rem;
 }
 .foot .logo-head p{
     font-size: 1.5rem;
@@ -1057,7 +1072,7 @@ footer .foot{
 
 .check{
     position: absolute;
-    top:-20px;
+    top:-25px;
     right:43%;
     background-color:#44da0b;
     color:white;
@@ -1320,7 +1335,7 @@ footer .foot{
         right: 0;
         background-color: var(--dark);
         clip-path:var(--clip-path2);
-        border-top: 1px solid white;
+        border-top: 1px solid var(--orange);
         padding:1rem 3rem;
     }
     header .navbar a{

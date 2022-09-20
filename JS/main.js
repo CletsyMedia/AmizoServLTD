@@ -5,24 +5,17 @@ menu.addEventListener('click', () => {
     menu.classList.toggle('fa-times')
     nav.classList.toggle('active');
 });
-// Form Toggle
-//  let formLog = document.querySelector('#loginBtn');
-//  let formControl = document.querySelector('.login-container');
-//  let formClose = document.querySelector('#form-close');
-
-//  formLog.addEventListener('click', () => {
-//      formControl.classList.add('active');
-//  });
-
-//  formClose.addEventListener('click', () => {
-//      formControl.classList.remove('active');
-//  });
 
 // Loader
-let loader = document.querySelector('.preloader');
-window.addEventListener("load", () => {
-  loader.style.display = "none";
-}) 
+function loader(){
+  document.querySelector('.preloader').classList.add('fade-out');
+}
+function fadeOut(){
+  setInterval(loader, 3000)
+}
+window.onload = fadeOut;
+
+
 
 // Slides
 let slideIndex1 = 0;

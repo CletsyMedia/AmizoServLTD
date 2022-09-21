@@ -85,7 +85,6 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow:hidden;
 }
 .preloader.fade-out{
     top:-100%;
@@ -154,93 +153,7 @@ header .icons .active{
 header .icons a:hover{
     color: #ffc727;
 }
-/* Login 
-.login-container{
-    position: fixed;
-    top: -120%;
-    left: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    z-index: 1000;
-}
-.login-container.active{
-    top: 0;
-}
-.login-container #form-close{
-    font-size: 2.5rem;
-    position: absolute;
-    color: white;
-    top:3rem;
-    right:5rem;
-    cursor: pointer;
-}
 
-.login-container #form-close:hover{
-    color: var(--orange);
-}
-.login-container .form-control{
-    width: 50rem;
-    margin: 2rem;
-    padding: 1.5rem 2rem;
-    background-color: var(--midnightblue);
-    border-radius:.5rem;
-}
-.login-container .form-control h3{
-    text-align: center;
-    text-transform:capitalize;
-    color:var(--orange);
-    font-size: 2rem;
-    padding:.5rem 0;
-}
-.login-container .form-control .box{
-    width: 100%;
-    padding:1.5rem;
-    margin: 0.6rem 0;
-    border-radius: .5rem;
-    border: .1rem solid rgba(0, 0, 0, 0.3);
-    color: white;
-    background-color: var(--dark);
-    text-transform: none;
-}
-.login-container .form-control .box:focus{
-    border:.1rem solid var(--orange);
-    transition: .5s ease-in;
-}
-.login-container .form-control .btn{
-    background-color: var(--orange);
-    cursor: pointer;
-    color: var(--dark);
-    font-size: 1.5rem;
-}
-.login-container .form-control .btn:hover{
-    background-color: var(--dodgerblue);
-    color: white;
-}
-.login-container .form-control #remember{
-    margin-right: 0.5rem;
-}
-.login-container .form-control label{
-    color: white;
-    font-size: 1.5rem;
-}
-.login-container .form-control p{
-    color: white;
-    padding: 0.6rem 0;
-    font-size: 1.4rem;
-}
-
-.login-container .form-control p a{
-    color:var(--orange);
-}
-.login-container .form-control p a:hover{
-    color: var(--dodgerblue);
-    text-decoration: underline;
-}
-*/
 
 /* Hero */
 .hero{
@@ -534,15 +447,27 @@ header .icons a:hover{
 .pro-info .col .card{
     position: relative;
     width: 300px;
+    height:230px;
     cursor: pointer;
     box-shadow: var(--shadow);
     border-radius: 5px;
     overflow: hidden;
+    display: none;
+}
+.pro-info .col:nth-child(1),
+.pro-info .col .card:nth-child(1),
+.pro-info .col:nth-child(2),
+.pro-info .col .card:nth-child(2),
+.pro-info .col:nth-child(3),
+.pro-info .col .card:nth-child(3),
+.pro-info .col:nth-child(4),
+.pro-info .col .card:nth-child(4){
+    display: inline-block;
 }
 .pro-info .col .overlay{
     position: absolute;
-    width: 300px;
-    height:255px;
+    width: 100%;
+    height: 100%;
     /* top:-100%; */
     left:0;
     display: flex;
@@ -565,7 +490,7 @@ header .icons a:hover{
 .pro-info .col:hover .overlay,
 .pro-info .col:hover .card img{
     top: 0;
-    transform: scale(1.5);
+    transform: scale(1.2);
 }
 .pro-info .overlay h3,
 .pro-info .overlay a{
@@ -577,6 +502,19 @@ header .icons a:hover{
     width: 100%;
     border-radius: 5px;
     transition: .5s ease;
+}
+.pro-load{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:20%;
+    margin: 3rem auto;
+    color: white;
+    font-size:1.7rem;
+}
+.pro-load:hover{
+    color: #000;
 }
 /* Project Ends */
 
@@ -1446,18 +1384,17 @@ footer .foot{
         align-items: center;
         flex-direction: column;
     }
-    .pro-info .col, .pro-info .col .card{
-        width:355px;
-    }
     .pro-info .col .overlay{
-        width:355px;
-        height:320px;
+        height:230px;
     }
     .about .about-head {
         grid-gap:6rem;
     }
     .statistics-counter {
         gap:3rem;
+    }
+    .pro-load{
+        width:50%;
     }
     .contact .info .contact-page .msgBox .msgTxt .name,
     .contact .info .contact-page .msgBox .msgTxt .phone{
@@ -1506,12 +1443,8 @@ footer .foot{
     .statistics-counter {
         gap:3rem;
     }
-    .pro-info .col, .pro-info .col .card{
-        width:315px;
-    }
     .pro-info .col .overlay{
-        width:315px;
-        height:290px;
+        height:230px;
     }
     .foot{
         grid-gap:4rem;

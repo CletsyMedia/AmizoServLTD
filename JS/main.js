@@ -11,10 +11,9 @@ function loader(){
   document.querySelector('.preloader').classList.add('fade-out');
 }
 function fadeOut(){
-  setInterval(loader, 1500)
+  setInterval(loader, 3000)
 }
 window.onload = fadeOut;
-
 
 
 // Slides
@@ -87,6 +86,20 @@ faqs.forEach(faq => {
     faq.classList.toggle("active");
   })
 })
+// View more
+let viewMoreBtn = document.querySelector('#load-more');
+let currentItems = 4;
+viewMoreBtn.onclick = () =>{
+  let boxes = [...document.querySelectorAll('.project .pro-info .col-box')];
+  for(var i = currentItems; i < currentItems + 4; i++){
+    boxes[i].style.display = 'inline-block';
+  }
+  currentItems += 4;
+  if(currentItems >= boxes.length){
+    viewMoreBtn.style.display = 'none';
+  }
+}
+
 
 
 
